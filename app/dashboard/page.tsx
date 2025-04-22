@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Card } from "@/app/ui/dashboard/cards";
 import RevenueChart from "@/app/ui/dashboard/revenue-chart";
 import LatestInvoices from "@/app/ui/dashboard/latest-invoices";
@@ -36,3 +37,12 @@ export default async function Page() {
     </main>
   );
 }
+=======
+<<<<<<< HEAD
+export default function Page() { return <p>Dashboard Page</p>; }
+=======
+export default function Dashboard() {
+  return <p>Dashboard</p>;
+}
+>>>>>>> f281ae9 (first commit)
+>>>>>>> 036468f (fix: replace bcrypt with bcryptjs)
